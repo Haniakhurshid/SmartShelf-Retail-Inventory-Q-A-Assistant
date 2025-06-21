@@ -1,0 +1,28 @@
+# ✅ Python & Streamlit .gitignore
+
+# Virtual Environment
+venv/
+.env/
+*.env
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# SQLite database
+*.db
+
+# VS Code settings
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Mac & Windows system files
+.DS_Store
+Thumbs.db
