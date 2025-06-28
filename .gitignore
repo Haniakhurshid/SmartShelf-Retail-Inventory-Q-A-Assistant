@@ -1,28 +1,39 @@
-# ✅ Python & Streamlit .gitignore
-
-# Virtual Environment
-venv/
-.env/
-*.env
-
-# Byte-compiled / cache
+# Python bytecode
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
 
-# SQLite database
-*.db
 
-# VS Code settings
+# VSCode settings
 .vscode/
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Mac & Windows system files
+# MacOS system files
 .DS_Store
-Thumbs.db
+
+# Logs
+*.log
+
+
+# PyCharm
+.idea/
+
+# Cache
+*.egg-info/
+dist/
+build/
+
+# Streamlit local config
+.streamlit/
+
+# Test / coverage files
+.coverage
+coverage.xml
+htmlcov/
