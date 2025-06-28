@@ -41,3 +41,23 @@ An intelligent retail inventory management tool powered by **Streamlit**, **FAIS
 >
 >💬 **Ask Inventory Page**  
 > ![Screenshot 2025-06-27 150136](https://github.com/user-attachments/assets/8e8299f1-4ee0-4a6e-bc9a-273c60300725)
+>
+>  ---
+>
+> ## 💼 Example Use Cases
+
+- 🛒 **Retail Managers:** Monitor and query stock levels on the fly without spreadsheets or manual checks.
+- 💬 **Customer Support Bots:** Instantly answer product availability and shelf location questions.
+- 🤖 **Automated Replenishment:** Connect to future smart shelf or POS sensors to keep inventory real-time.
+- 🏬 **Employee Training:** Help new staff understand stock flow and shelf mapping using conversational queries.
+
+-  ---
+
+## ⚠️ Limitations
+
+-  No live integration with real-time sensors or POS systems yet.
+-  Purchases and inventory updates still require UI button clicks or API triggers (not fully automated).
+-  Not optimized for very large-scale deployments out of the box.
+
+---
+
